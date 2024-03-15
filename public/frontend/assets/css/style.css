@@ -1,0 +1,226 @@
+/*---------------------
+  Initial Style
+---------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+    font-size: 16px;
+}
+
+p{
+    margin: 0;
+}
+:root{
+    --main-color: #13b184;
+}
+.text-primary{
+    color: #13b184 !important;
+}
+
+.text-shadow-black{
+    text-shadow: 0 0 0.3px #000000;
+}
+
+.text-shadow-white{
+    text-shadow: 0 0 0.3px #ffffff;
+}
+
+.bg-primary, .btn-primary{
+    background: #13b184 !important;
+    border-color: #108f6b !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover{
+    background: #13b184 !important;
+    border-color: #108f6b !important;
+    color: #fff !important;
+}
+
+/*---------------------
+  Navigation Menu Style
+---------------------*/
+#topbar .navbar{
+    background: #13b184;
+    box-shadow: inset 0px 20px 20px 0px #13b184;
+}
+
+#topbar .navbar-brand {
+    font-size: 1.5rem;
+    max-width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+#topbar .navbar-nav .nav-link {
+    color: #000;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#topbar .nav-item{
+    border-radius: 2rem;
+}
+
+#topbar .navbar-nav .nav-item:hover{
+    color: #a3d8da;
+    transition: all 0.3s ease;
+}
+
+#topbar .signup{
+    color: #ffffff;
+    text-transform: none;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.company_logo img{
+    max-height: 120px;
+}
+
+
+/*------------------------
+Banner Section Style
+--------------------------*/
+.banner {
+    background-color: black;
+    color: #f1f1f1;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-image: url();
+    background-color: rgba(50, 68, 138, .5);
+    background-image: url(images/banner/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.banner .container {
+    height: 50vh;
+}
+
+.banner .row {
+    align-items: center;
+    height: 50vh;
+    overflow:hidden;
+    text-align: center;
+    background-image: url();
+}
+
+@media screen and (min-width: 769px) {
+    p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 2em;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 567px) {
+    img {
+        width: 70%;
+    }
+}
+
+
+
+/* all_jobs page style */
+.joblist_item .card{
+    cursor: pointer;
+    color: #424242;
+    border-color: #abc3da;
+    background-image: url('images/banner/banner.jpg');
+}
+
+.joblist_item .card a:hover{
+    text-decoration: underline !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #topbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+#categoryList .categoryItem{
+   background: linear-gradient(90deg, #13b184 0%, rgb(17, 248, 190) 100%);
+   text-align: center;
+}
+
+.space-top{
+    margin-top: 5.5rem !important;
+}
+.carousel-item{
+    height: 80vh;
+}
+.carousel-caption{
+    margin-bottom: 10rem;
+}
+
+.section-title h1{
+    color: var(--main-color);
+}
+.categoryItem h4{
+    color: #fff;
+    font-weight: 700;
+}
+.categoryItem p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+.card-body,
+.joblist-inner {
+	background: #f7f7f7;
+	padding: 50px 20px;
+	border-radius: 8px;
+}
+.job-list-content{
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px !important;
+}
+.ap-btn{
+    letter-spacing: 1px !important;
+}
+.job-list-content{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 24px;
+}
+.bggg{
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+.card-header h5{
+    color: var(--main-color);
+}
+.card-body a{
+    color: #444;
+    transition: all linear .3s;
+}
+.card-body a:hover{
+    color: var(--main-color);
+}
+.jobdetails_header{
+    text-align: center;
+}
