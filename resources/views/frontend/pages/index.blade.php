@@ -11,24 +11,24 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="{{ asset('assets/img/banner/banner.jpg') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('assets/img/banner/banner_2.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h1 class="fw-bolder display-1">First slide label</h1>
-                  <h4 class="fw-bolder">Some representative placeholder content for the first slide.</h4>
+                  <h1 class="fw-bolder display-1">Find Your Dream Job Today</h1>
+                  <h4 class="fw-bolder">Explore thousands of job opportunities tailored to your skills and interests on our intuitive platform</h4>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{ asset('assets/img/banner/banner.jpg') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('assets/img/banner/banner_1.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="fw-bolder display-1">First slide label</h1>
-                    <h4 class="fw-bolder">Some representative placeholder content for the first slide.</h4>
+                    <h1 class="fw-bolder display-1">Streamline Your Job Search</h1>
+                    <h4 class="fw-bolder">Effortlessly search, apply, and track your job applications all in one place, saving you time and energy</h4>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{ asset('assets/img/banner/banner.jpg') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('assets/img/banner/banner_3.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="fw-bolder display-1">First slide label</h1>
-                    <h4 class="fw-bolder">Some representative placeholder content for the first slide.</h4>
+                    <h1 class="fw-bolder display-1">Connect with Top Employers</h1>
+                    <h4 class="fw-bolder">Gain access to exclusive job postings from leading companies, and make meaningful connections that propel your career forward</h4>
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@
 @section('frontend_content')
     <!-- Banner Sectoin -->
     <section id="page-banner">
-        <div class="banner" style="background-image: url('{{ asset('assets/img/banner/banner.jpg') }}');">
+        <div class="banner" style="background-image: url('{{ asset('assets/img/banner/banner_5.jpg') }}');">
             <div class="container">
                 <div class="row">
                 <div class="col-sm-12">
