@@ -9,7 +9,7 @@
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Category List</h1>
         <div class="float-end">
-            <a href="" class="btn btn-primary float-end"><i class="fa fa-plus"></i> Add New</a>
+            <a href="{{ url('/category-create') }}" class="btn btn-primary float-end"><i class="fa fa-plus"></i> Add New</a>
         </div>
     </div>
 

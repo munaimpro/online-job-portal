@@ -3,7 +3,7 @@
 @section('frontend_content')
 <!-- Banner Sectoin -->
 <section id="page-banner">
-    <div class="banner" style="background-image: url('{{ asset('assets/img/banner/banner.jpg') }}');">
+    <div class="banner" style="background-image: url('{{ asset('assets/img/banner/banner_3.jpg') }}');">
         <div class="container">
             <div class="row">
             <div class="col-sm-12">
@@ -22,7 +22,7 @@
             <div class="jobdetails_header">
                 <div class="row">
                         <div class="company_logo text-center">
-                            <img src="{{ asset('backend/assets/images/company/' . $job_details->company_logo) }}" alt="company_logo">
+                            <img src="{{ asset('backend/assets/images/company/logo.jpg') }}" alt="company_logo">
                         </div>
                         <h2>{{ $job_details->organization_name }}</h2>
                         <h2 class="text-primary">{{ $job_details->designation }}</h2>
