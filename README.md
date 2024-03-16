@@ -8,5 +8,5 @@
 </p>
 
 ## JobPulse Project Video Link
-[Watch video here](https://drive.google.com/file/d/1gtMBFceZgwzMe35PrQG_1LAaCdgOttxj/view?usp=sharing)
+[Watch the video here](https://drive.google.com/file/d/19Eigc-s4pYEplsVR6hDPB3TM6KGBdgpb/view?usp=drive_link)
 
