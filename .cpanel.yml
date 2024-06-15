@@ -23,7 +23,7 @@ deployment:
     - php artisan key:generate --force
 
     # Run database migrations (if necessary)
-    - php artisan migrate --force
+    - php artisan migrate --force 
 
     # Clear and cache configuration
     - php artisan config:cache
