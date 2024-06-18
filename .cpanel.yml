@@ -18,7 +18,6 @@ deployment:
     - /bin/cp -R storage $DEPLOYPATH
     - /bin/cp -R tests $DEPLOYPATH
     - /bin/cp -R vendor $DEPLOYPATH
-    - /bin/cp -R $DEPLOYPATH
 
     # Change to the deployment directory
     # - cd $DEPLOYPATH
