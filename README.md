@@ -3,7 +3,7 @@
 
 
 ## 📔 Description
-This is a Laravel-based online job portal designed to simplify the job search and recruitment process. The system features a user-friendly interface built with HTML, CSS, Bootstrap, and JavaScript, allowing job seekers to apply for positions, and manage their profiles. Employers can post job openings, manage applications, and monitor statistics through an intuitive admin dashboard. The backend utilizes the robust Laravel framework for efficient data management and secure authentication with <b>Sanctum</b>. This system aims to provide a convenient and efficient solution for both job seekers and employers, enhancing the overall hiring experience.<br/><br/>
+This is a Laravel-based online job portal designed to simplify the job search and recruitment process. The system features a user-friendly interface built with HTML, CSS, Bootstrap, and JavaScript, allowing job seekers to apply for positions, and manage their profiles. Employers can post job openings, manage applications, and monitor statistics through an intuitive admin dashboard. The backend utilizes the robust Laravel framework for efficient data management and secure authentication with JWT. This system aims to provide a convenient and efficient solution for both job seekers and employers, enhancing the overall hiring experience.<br/><br/>
 
 ## 💡 Technology
 - Frontend Language: HTML, CSS, JavaScript
@@ -11,7 +11,7 @@ This is a Laravel-based online job portal designed to simplify the job search an
 - Database: MySQL
 - Frontend Framework: Bootstrap
 - Backend Framework: Laravel
-- Authentication: Laravel Sanctum<br/><br/>
+- Authentication: JWT (JSON Web Token)<br/><br/>
 
 ## 💻 Contributor
 - <a href="https://github.com/munaimpro">Munaim Khan</a><br/><br/>
