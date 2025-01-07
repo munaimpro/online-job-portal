@@ -1,12 +1,33 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Online Job Portal - JobPulse
+[<img src='https://github.com/munaimpro/online-job-portal/blob/main/online-job-portal-cover.png?raw=true' alt='Online Job Portal - JobPulse' style='width:100%'>](https://github.com/munaimpro/online-job-portal/)<br/><br/>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## JobPulse Project Video Link
-[Watch the video here](https://drive.google.com/file/d/19Eigc-s4pYEplsVR6hDPB3TM6KGBdgpb/view?usp=drive_link)
+## 📔 Description
+This is a Laravel-based online job portal designed to simplify the job search and recruitment process. The system features a user-friendly interface built with HTML, CSS, Bootstrap, and JavaScript, allowing job seekers to apply for positions, and manage their profiles. Employers can post job openings, manage applications, and monitor statistics through an intuitive admin dashboard. The backend utilizes the robust Laravel framework for efficient data management and secure authentication with <b>Sanctum</b>. This system aims to provide a convenient and efficient solution for both job seekers and employers, enhancing the overall hiring experience.<br/><br/>
 
+## 💡 Technology
+- Frontend Language: HTML, CSS, JavaScript
+- Backend Language: PHP
+- Database: MySQL
+- Frontend Framework: Bootstrap
+- Backend Framework: Laravel
+- Authentication: Laravel Sanctum<br/><br/>
+
+## 💻 Contributor
+- <a href="https://github.com/munaimpro">Munaim Khan</a><br/><br/>
+
+## 🤝 Stay connected with me
+<a target="_blank" href="https://www.linkedin.com/in/munaimpro">
+    <img src="https://img.shields.io/badge/Munaim Khan-%23E4405F.svg?&style=for-the-badge&logo=LinkedIn&color=030810&logoColor=FFFFFF"/>
+</a> &nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://www.github.com/munaimpro">
+    <img src="https://shields.io/badge/Munaim Khan-%23E4405f.svg?style=for-the-badge&logo=github&color=030810&logoColor=FFFFFF"/>
+</a> &nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://www.facebook.com/WebCoderMunaim">
+    <img src="https://img.shields.io/badge/Web Coder Munaim-%23E4405F.svg?&style=for-the-badge&logo=facebook&color=030810&logoColor=FFFFFF"/>
+</a><br/><br/>
+
+## 🌐 For more details
+<a target="_blank" href="https://www.munaimpro.com">
+    <img src="https://img.shields.io/badge/munaimpro.com-%23E4405F.svg?&style=for-the-badge&logo=googleearth&color=030810&logoColor=FFFFFF"/>
+</a>
