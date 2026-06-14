@@ -28,6 +28,6 @@ This is a Laravel-based online job portal designed to simplify the job search an
 </a><br/><br/>
 
 ## 🌐 For more details
-<a target="_blank" href="https://www.munaimpro.com">
-    <img src="https://img.shields.io/badge/munaimpro.com-%23E4405F.svg?&style=for-the-badge&logo=googleearth&color=030810&logoColor=FFFFFF"/>
+<a target="_blank" href="https://www.munaimpro.vercel.app">
+    <img src="https://img.shields.io/badge/munaimpro.vercel.app-%23E4405F.svg?&style=for-the-badge&logo=googleearth&color=030810&logoColor=FFFFFF"/>
 </a>
