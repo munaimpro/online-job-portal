@@ -1,33 +1,316 @@
-# Online Job Portal - JobPulse
-[<img src='https://github.com/munaimpro/online-job-portal/blob/main/online-job-portal-cover.png?raw=true' alt='Online Job Portal - JobPulse' style='width:100%'>](https://github.com/munaimpro/online-job-portal/)<br/><br/>
+# 💼 JobPulse
 
+A full-stack Online Job Portal built with Laravel that connects job seekers and employers on a single platform. Job seekers can search and apply for jobs, while employers can post vacancies, manage applications, and monitor recruitment activities through an intuitive dashboard.
 
-## 📔 Description
-This is a Laravel-based online job portal designed to simplify the job search and recruitment process. The system features a user-friendly interface built with HTML, CSS, Bootstrap, and JavaScript, allowing job seekers to apply for positions, and manage their profiles. Employers can post job openings, manage applications, and monitor statistics through an intuitive admin dashboard. The backend utilizes the robust Laravel framework for efficient data management and secure authentication with JWT. This system aims to provide a convenient and efficient solution for both job seekers and employers, enhancing the overall hiring experience.<br/><br/>
+---
 
-## 💡 Technology
-- Frontend Language: HTML, CSS, JavaScript
-- Backend Language: PHP
-- Database: MySQL
-- Frontend Framework: Bootstrap
-- Backend Framework: Laravel
-- Authentication: JWT (JSON Web Token)<br/><br/>
+## 🌐 Project Preview
 
-## 💻 Contributor
-- <a href="https://github.com/munaimpro">Munaim Khan</a><br/><br/>
+[![JobPulse Cover](https://github.com/munaimpro/online-job-portal/blob/main/online-job-portal-cover.png?raw=true)](https://github.com/munaimpro/online-job-portal)
 
-## 🤝 Stay connected with me
-<a target="_blank" href="https://www.linkedin.com/in/munaimpro">
-    <img src="https://img.shields.io/badge/Munaim Khan-%23E4405F.svg?&style=for-the-badge&logo=LinkedIn&color=030810&logoColor=FFFFFF"/>
-</a> &nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://www.github.com/munaimpro">
-    <img src="https://shields.io/badge/Munaim Khan-%23E4405f.svg?style=for-the-badge&logo=github&color=030810&logoColor=FFFFFF"/>
-</a> &nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://www.facebook.com/WebCoderMunaim">
-    <img src="https://img.shields.io/badge/Web Coder Munaim-%23E4405F.svg?&style=for-the-badge&logo=facebook&color=030810&logoColor=FFFFFF"/>
-</a><br/><br/>
+---
 
-## 🌐 For more details
-<a target="_blank" href="https://munaimpro.vercel.app">
-    <img src="https://img.shields.io/badge/munaimpro.vercel.app-%23E4405F.svg?&style=for-the-badge&logo=googleearth&color=030810&logoColor=FFFFFF"/>
-</a>
+## 📂 GitHub Repository
+
+🔗 Repository: https://github.com/munaimpro/online-job-portal
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/munaimpro/online-job-portal.git
+```
+
+### Install Dependencies
+
+```bash
+composer install
+```
+
+### Configure Environment
+
+```bash
+cp .env.example .env
+```
+
+Generate application key:
+
+```bash
+php artisan key:generate
+```
+
+Configure your database credentials inside the `.env` file.
+
+Run database migrations:
+
+```bash
+php artisan migrate
+```
+
+Start the development server:
+
+```bash
+php artisan serve
+```
+
+Open:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+# 🎯 Project Overview
+
+JobPulse is a modern recruitment platform designed to simplify the hiring process for both employers and job seekers.
+
+Job seekers can browse available jobs, submit applications, and manage their profiles, while employers can publish job postings, review applicants, and oversee recruitment activities from a centralized dashboard.
+
+---
+
+# 👥 System Roles
+
+### 👨‍💼 Job Seeker
+
+- Browse Job Listings
+- View Job Details
+- Apply for Jobs
+- Manage Profile
+- Track Applications
+
+### 🏢 Employer
+
+- Post New Jobs
+- Edit Job Posts
+- Delete Job Posts
+- Manage Applications
+- Monitor Recruitment Activities
+
+### 🛡️ Administrator
+
+- Manage Users
+- Manage Employers
+- Manage Job Listings
+- Monitor Platform Activities
+
+---
+
+# ✨ Core Features
+
+## 🔐 Authentication & Authorization
+
+### Authentication
+
+- User Registration
+- Secure Login
+- JWT Authentication
+- Session Management
+
+### Authorization
+
+- Role-Based Access Control
+- Protected Dashboard
+- Secure API Authentication
+
+---
+
+# 💼 Job Management
+
+### Employers Can
+
+- Post New Jobs
+- Edit Existing Jobs
+- Delete Job Posts
+- Manage Job Listings
+
+### Job Information
+
+- Job Title
+- Company Name
+- Job Category
+- Location
+- Salary
+- Job Description
+- Requirements
+- Deadline
+
+---
+
+# 📄 Job Application System
+
+Job seekers can:
+
+- Browse Available Jobs
+- View Job Details
+- Submit Applications
+- Manage Application History
+
+---
+
+# 🌐 Public Pages
+
+## Home Page
+
+- Featured Jobs
+- Latest Job Listings
+- Job Categories
+- Responsive Landing Page
+
+## Job Listings
+
+Features include:
+
+- Browse Available Jobs
+- Job Details
+- Company Information
+
+---
+
+# 📊 Dashboard Features
+
+## Job Seeker Dashboard
+
+- Profile Management
+- Applied Jobs
+- Account Settings
+
+## Employer Dashboard
+
+- Post Job
+- Manage Jobs
+- View Applicants
+- Recruitment Overview
+
+---
+
+# 🔄 System Flow
+
+```text
+User Registration
+        ↓
+Authentication
+        ↓
+Role Assignment
+        ↓
+Dashboard Access
+        ↓
+Browse / Post Jobs
+        ↓
+Job Application
+        ↓
+Application Management
+```
+
+---
+
+# 🛡️ Security Features
+
+- JWT Authentication
+- Role-Based Authorization
+- Protected Routes
+- Secure API Communication
+- Server-Side Validation
+- Environment Variable Protection
+
+---
+
+# 🗄️ Database Modules
+
+- Users
+- Employers
+- Job Posts
+- Job Applications
+- Categories
+
+---
+
+# ⚙️ Key Functionalities
+
+- Complete CRUD Operations
+- Authentication System
+- Role-Based Dashboard
+- Job Posting System
+- Job Application System
+- Responsive Design
+- Server-Side Validation
+- Secure API Architecture
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+
+## Backend
+
+- PHP
+- Laravel
+
+## Database
+
+- MySQL
+
+## Authentication
+
+- JWT (JSON Web Token)
+
+---
+
+# 📦 Packages Used
+
+## Backend
+
+- Laravel
+- JWT Authentication
+- Composer Packages
+
+## Frontend
+
+- Bootstrap
+- jQuery
+- Font Awesome
+
+---
+
+# 🎯 Features Implemented
+
+✅ Authentication System
+
+✅ JWT Authentication
+
+✅ Role-Based Authorization
+
+✅ Job CRUD Operations
+
+✅ Job Application System
+
+✅ Employer Dashboard
+
+✅ Job Seeker Dashboard
+
+✅ User Management
+
+✅ Responsive Design
+
+✅ Server-Side Validation
+
+✅ Secure API
+
+---
+
+## 👨‍💻 Developed By
+
+**Munaim Khan**
+
+M.Sc. in Computer Science & Engineering
+
+Full Stack Web Developer
